@@ -1,7 +1,6 @@
-"# personal_py_projects" 
+Ativação de .venv:
 
-    Ativação de .venv -Ambiente Windows::
-```
+Windows:
 ```
 Set-ExecutionPolicy Unrestricted -Scope Process
 ```
@@ -17,9 +16,8 @@ copy env-sample .env
 ```
 pip install -r requirements.txt
 ```
-     
-     -Ambiente Ubuntu:
-```
+
+Ubuntu:
 ```
 python3 -m venv .venv
 ```
@@ -33,14 +31,12 @@ cp env-sample .env
 pip install -r requirements.txt
 ```
 
-    Baixar atualizações git:
-```
+Baixar atualizações:
 ```
 git pull
 ```
 
-    Incluir atualizações git:
-```
+Incluir atualizações:
 ```
 git status
 ```
@@ -54,20 +50,16 @@ git commit -m'Info da atualização'
 git push
 ```
 
-    Retornar para ultima versão salva no git:
-```
+Retornar para ultima versão salva no git:
 ```
 git checkout .
 ```
 
-    Criar executavel:
+Criar executavel:
 1º - Acessar pasta onde o executavel está via CMD:
-```
 ```
 cd <caminho>
 ```
 ```
 pyinstaller <arquivo.py> --windowed --clean --noconfirm --onefile
 ```
-```
-
